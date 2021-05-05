@@ -1,0 +1,77 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+header img {
+	height: 75px;
+	padding-left: 10px;
+}
+div {
+	background-image:url("Books.jpg");
+	background-size: cover;
+	height: 500px;
+}
+form {
+	float:right;
+	padding: 30px 125px;
+}
+input, button {
+	border: 0;
+	border-bottom: 3px solid white;
+	color: white;
+	background-color: transparent;
+	width: 315px;
+	margin-top: 45px;
+	text-align: center;
+	outline: none;
+	padding-top: 3px 2px;
+	font-size: 20px;
+}
+button {
+	border: 2px solid orange;
+	color: orange;
+	padding: 10px;
+	width: 110px;
+	font-weight: bold;
+	margin-left: 97px;
+	font-size: 20px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+a{
+	color: white;
+	text-decoration:none;
+}
+input[placeholder] {
+	color: white;
+}
+p {
+	margin: 0;
+}
+.forgot {
+	font-size: 20px;
+	pointer: cursor;
+	color: white;
+	font-weight: bold;
+	margin-left: 90px;
+	margin-top: 27px;
+	cursor: pointer;
+}
+.help {
+	font-size: 18px;
+	color: orange;
+	font-weight: bold;
+	margin-left: 103px;
+	margin-top: 27px;
+	cursor: pointer;
+}
+.download {
+	width: 200px;
+	margin-left: 62px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+::placeholder {
+	font-size: 20px;
+	color: white;
+	opacity: 1;

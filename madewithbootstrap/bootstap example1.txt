@@ -1,0 +1,90 @@
+ <!doctype html>
+ <html>
+ <head>
+ <meta charset="utf-8">
+ <title>made with bootstrap</title>
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+  <div class="modal" id="dami">
+    <div class="modal-dialog">
+	 <div class="modal-content">
+       <div class="modal-header bg-danger">
+  this is modal- header
+  </div>
+  <div class="modal-body">
+  <div class="card">
+	<div class="card-header">card header</div>
+	<div class="card-body">card-body</div>
+	  <div class="footer">card-footer</div>
+	</div>
+  </div>
+  <div class="modal-footer">
+  <button class="btn btn-danger" data-bs-dismiss="modal">close</button>
+     </div>
+  </div>
+</div>
+</div>
+
+    <div class="card">
+	<div class="card-header">card header</div>
+	<div class="card-body">card-body</div>
+	<div class="footer">card-footer</div>
+  </div>
+  <ul class="nav bg-dark justify-content-end">
+  <li class="nav-item"><a href="#" class="nav-link  text-danger">uche</a></li>
+  <li  class="nav-item"><a href="#" class="nav-link text-white">fogo</a></li>
+  <li  class="nav-item"><a href="#" class="nav-link text-white">dayo</a></li>
+  </ul>
+  
+  
+  <p> <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#dami">lunch modal</button>
+  
+ <table class="table table-hover table-responsive-sm">
+ 
+ 
+ <tr class="table-info">
+ <th>s/n<th>
+ <th>full name</th>
+ </tr>
+ <tr>
+ <td>1</td>
+ <td>uche</td>
+ </tr>
+ <tr>
+ <td>1</td>
+ <td>fogo</td>
+ </tr>
+ <tr>
+ <td>1</td>
+ <td>dayo</td>
+ </tr>
+ </table>
+ <div class="container">
+  <div class="row">
+  <div class="col-1g-3  col-sm-5 bg-info text-white ">home</div>
+  <div class="col-1g-3  col-sm-4 bg-primary text-white">about</div>
+  <div class="col-1g-3  col-sm-2 bg-danger text-white">contact</div>
+  <div class="col-1g-3  col-sm-1 bg-warning text-white">service</div>
+ 
+  <img src="image/400138700652_328158.jpg" height="700" width="500" class="rounded-circle"/>
+  
+  </div>
+  <form>
+  <div class="form-group">
+  <input type="text" placeholder="password" class="form-control"/>
+  </div>
+   <div class="form-group">
+   <input type="text" placeholder="username" class="form-control"/>
+   </div>
+    <div class="form-group">
+  <button class="btn btn-danger">click me </button>
+  </div>
+  
+  
+  <script src="jquery-3.6.0.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+  </body>
+  </html> 

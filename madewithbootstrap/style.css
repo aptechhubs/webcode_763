@@ -1,0 +1,12 @@
+#uche{
+	width:400px;
+	height:400px;
+	background-color:red;
+	
+}
+button{
+	background-color:blue;
+	border-radius:20px;
+	 border: 5px solid #6dd1ef;
+	 margin:12px;
+}

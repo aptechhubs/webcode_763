@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Livescore</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <style>
+        nav {
+            background-color: black;
+        }
+
+        .navbar-nav a {
+            padding: 0 35px;
+            text-decoration: none;
+            color: white;
+        }
+
+        ul {
+            padding-left: 0;
+            margin: 0;
+        }
+
+        hr {
+            margin: 0;
+        }
+
+        li {
+            background-color: black;
+            color: white;
+            list-style: none;
+        }
+
+        .col-2 li {
+            padding: 5px;
+        }
+
+        .col-2 {
+            padding: 0;
+        }
+
+        .col-6 {
+            padding: 0;
+        }
+
+        .col-6 ul {
+            display: inline-flex;
+            padding: 5px 20px;
+            background-color: black;
+        }
+
+        .table {
+            width: 90%;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body ng-app="livescore">
+    <div ng-controller="tableCtrl">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <ul class="navbar-nav">
+                <li ng-repeat="navItems in navbar">
+                    <a>{{navItems}}</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2">
+                    <ul ng-repeat="asideItems in aside">
+                        <li>{{asideItems}}</li>
+                        <hr>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <ul ng-repeat="dateItems in date">
+                        <li>{{dateItems}}</li>
+                    </ul>
+                    <table class="table">
+                        <tr ng-repeat="y in game">
+                            <td ng-repeat="x in y">{{x}}</td>
+                            <!-- <span ng-repeat="timeItems in time">{{timeItems}}</span>
+                            <span ng-repeat="teamItems in team">{{teamItems}} ? - ?</span>
+                            <span ng-repeat="againstItems in against">{{againstItems}}</span> -->
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="angular.min.js"></script>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="table.js"></script>
+</body>
+
+</html>

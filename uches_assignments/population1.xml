@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="pop.xsl"?>
+<population>
+     <item type="first">
+	    <country>Nigeria</country>
+		<pop>206,139,589</pop>
+		
+	 </item>
+	 
+	   <item type="second">
+	    <country>Ethiopia</country>
+		<pop>114,963,588</pop>
+	 </item>
+	 
+	   <item type="third">
+	    <country>Egypt</country>
+		<pop>102,334,404</pop>
+	 </item>
+	 
+	   <item type="fourth">
+	    <country>DR Congo</country>
+		<pop>89,561,403</pop>
+	 </item>
+	 
+	  <item type="fifth">
+	    <country>South Africa</country>
+		<pop>59,308,690</pop>
+	 </item>
+	    <item type="sixth">
+	    <country>Tanzania</country>
+		<pop>59,734,218</pop>
+		
+	 </item>
+	 
+	   <item type="seventh">
+	    <country>Kenya</country>
+		<pop>53,771,296</pop>
+	 </item>
+	 
+	   <item type="eighth">
+	    <country>Uganda</country>
+		<pop>45,741,007</pop>
+	 </item>
+	 
+	   <item type="ninth">
+	    <country>Algeria</country>
+		<pop>43,851,044</pop>
+	 </item>
+	 
+	  <item type="tenth">
+	    <country>Sudan</country>
+		<pop>43,849,260</pop>
+	 </item>
+</population>

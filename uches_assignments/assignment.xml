@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="dom.xsl"?>
+<contact>
+<item>
+<myname type="some">uche</myname>
+<phone>07051341299</phone>
+<address> cement</address>
+</item>
+
+<item>
+<myname type="some">jide</myname>
+<phone>07051341277</phone>
+<address> maryland </address>
+</item>
+
+<item>
+<myname type="some">james</myname>
+<phone>07051341277</phone>
+<address> agege</address>
+</item>
+
+<item>
+<myname type="some">funsho</myname>
+<phone>07051341277</phone>
+<address> oshodi</address>
+</item>
+
+<item>
+<myname type="some">wale</myname>
+<phone>07051341277</phone>
+<address> lekki </address>
+</item>
+
+<item>
+<myname type="some">dayo</myname>
+<phone>07051341277</phone>
+<address> ikeja </address>
+</item>
+</contact>
